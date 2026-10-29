@@ -1,0 +1,350 @@
+2026-10-16 11:47:40,313 INFO 手眼标定界面启动
+2026-10-16 12:22:31,762 INFO 请求激活已有标定窗口
+2026-10-16 12:29:03,104 INFO 关闭手眼标定相机
+2026-10-16 12:29:03,104 INFO 手眼标定界面停止
+2026-10-16 12:29:07,920 INFO 手眼标定界面启动
+2026-10-16 12:29:33,553 INFO 请求激活已有标定窗口
+2026-10-16 12:29:33,554 INFO 已恢复手眼标定窗口
+2026-10-16 12:29:44,190 INFO 请求激活已有标定窗口
+2026-10-16 12:29:44,192 INFO 已恢复手眼标定窗口
+2026-10-16 15:19:16,173 INFO 请求激活已有标定窗口
+2026-10-16 15:19:16,177 INFO 已恢复手眼标定窗口
+2026-10-16 15:20:06,593 INFO 关闭手眼标定相机
+2026-10-16 15:20:06,594 INFO 手眼标定界面停止
+2026-10-16 15:20:10,298 INFO 手眼标定界面启动
+2026-10-16 15:37:46,128 INFO 请求激活已有标定窗口
+2026-10-16 15:37:46,130 INFO 已恢复手眼标定窗口
+2026-10-16 15:38:19,004 INFO 关闭手眼标定相机
+2026-10-16 15:38:19,005 INFO 手眼标定界面停止
+2026-10-16 15:38:33,319 INFO 手眼标定界面启动
+2026-10-16 15:47:22,368 INFO 请求激活已有标定窗口
+2026-10-16 15:47:22,369 INFO 已恢复手眼标定窗口
+2026-10-16 15:47:43,542 INFO 已恢复手眼标定窗口
+2026-10-16 15:47:43,544 INFO 请求激活已有标定窗口
+2026-10-16 15:50:28,473 INFO 关闭手眼标定相机
+2026-10-16 15:50:28,474 INFO 手眼标定界面停止
+2026-10-16 15:50:51,826 INFO 手眼标定界面启动
+2026-10-16 15:57:09,126 INFO 请求激活已有标定窗口
+2026-10-16 15:57:09,127 INFO 已恢复手眼标定窗口
+2026-10-16 15:58:28,176 INFO 请求激活已有标定窗口
+2026-10-16 15:58:28,182 INFO 已恢复手眼标定窗口
+2026-10-16 15:59:19,162 INFO 关闭手眼标定相机
+2026-10-16 15:59:19,163 INFO 手眼标定界面停止
+2026-10-16 15:59:27,376 INFO 手眼标定界面启动
+2026-10-16 15:59:34,886 INFO 关闭手眼标定相机
+2026-10-16 15:59:34,887 INFO 手眼标定界面停止
+2026-10-16 15:59:37,081 INFO 手眼标定界面启动
+2026-10-16 15:59:43,945 INFO 关闭手眼标定相机
+2026-10-16 15:59:43,947 INFO 手眼标定界面停止
+2026-10-16 16:34:12,572 INFO 手眼标定界面启动
+2026-10-16 16:35:02,039 INFO 关闭手眼标定相机
+2026-10-16 16:35:02,040 INFO 手眼标定界面停止
+2026-10-23 19:06:34,798 INFO 手眼标定界面启动
+2026-10-23 19:06:50,843 INFO 读取相机内参与标定板参数
+2026-10-23 19:07:31,911 WARNING 操作提示：当前视频分辨率与内参不一致，请选择原标定分辨率。
+2026-10-23 19:07:54,383 WARNING 操作提示：当前视频分辨率与内参不一致，请选择原标定分辨率。
+2026-10-23 19:08:08,439 WARNING 操作提示：当前视频分辨率与内参不一致，请选择原标定分辨率。
+2026-10-23 19:08:30,407 WARNING 操作提示：当前视频分辨率与内参不一致，请选择原标定分辨率。
+2026-10-23 19:08:37,032 WARNING 操作提示：请先核对并勾选相机、镜头状态及标定板一致。
+2026-10-23 19:08:43,991 INFO 打开手眼标定相机
+2026-10-23 19:08:44,144 INFO 关闭手眼标定相机
+2026-10-23 19:08:45,441 INFO 打开手眼标定相机
+2026-10-23 19:08:45,622 INFO 关闭手眼标定相机
+2026-10-23 19:08:46,275 INFO 打开手眼标定相机
+2026-10-23 19:08:46,421 INFO 关闭手眼标定相机
+2026-10-23 19:08:57,345 INFO 打开手眼标定相机
+2026-10-23 19:09:31,922 ERROR 后台操作失败
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 46, in run
+    self.signals.done.emit(self.function())
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 916, in work
+    from 机械臂接入 import PiperReader
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 14, in <module>
+    import threadingn
+ModuleNotFoundError: No module named 'threadingn'
+2026-10-23 19:09:31,924 WARNING 操作提示：No module named 'threadingn'
+2026-10-23 19:09:38,231 ERROR 后台操作失败
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 46, in run
+    self.signals.done.emit(self.function())
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 916, in work
+    from 机械臂接入 import PiperReader
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 14, in <module>
+    import threadingn
+ModuleNotFoundError: No module named 'threadingn'
+2026-10-23 19:09:38,232 WARNING 操作提示：No module named 'threadingn'
+2026-10-23 19:10:43,298 ERROR 后台操作失败
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 46, in run
+    self.signals.done.emit(self.function())
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 916, in work
+    from 机械臂接入 import PiperReader
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 14, in <module>
+    import threadingn
+ModuleNotFoundError: No module named 'threadingn'
+2026-10-23 19:10:43,303 WARNING 操作提示：No module named 'threadingn'
+2026-10-23 19:10:47,185 ERROR 后台操作失败
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 46, in run
+    self.signals.done.emit(self.function())
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 916, in work
+    from 机械臂接入 import PiperReader
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 14, in <module>
+    import threadingn
+ModuleNotFoundError: No module named 'threadingn'
+2026-10-23 19:10:47,186 WARNING 操作提示：No module named 'threadingn'
+2026-10-23 19:13:40,536 INFO 关闭手眼标定相机
+2026-10-23 19:13:40,537 INFO 手眼标定界面停止
+2026-10-23 19:20:39,372 INFO 手眼标定界面启动
+2026-10-23 19:20:52,902 WARNING 操作提示：请先在“准备参数”读取相机标定结果。
+2026-10-23 19:21:02,612 INFO 读取相机内参与标定板参数
+2026-10-23 19:21:21,597 WARNING 操作提示：请先核对并勾选相机、镜头状态及标定板一致。
+2026-10-23 19:21:26,038 WARNING 操作提示：请先核对并勾选相机、镜头状态及标定板一致。
+2026-10-23 19:21:30,125 ERROR 后台操作失败
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 149, in open_reader
+    arm.connect()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/drivers/core/arm_driver_abstract.py", line 264, in connect
+    comm = self._ctx.init_comm()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/drivers/core/driver_context.py", line 87, in init_comm
+    comm = CommsFactory.create_comm(
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/comm_factory.py", line 50, in create_comm
+    return cls_type(**kwargs)
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 50, in __new__
+    return CanCommImpl(config, comm_type)
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 79, in __init__
+    self.check_can()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 231, in check_can
+    raise self.last_error
+ValueError: Device 'can0' does not exist.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 47, in run
+    self.signals.done.emit(self.function())
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 1059, in work
+    generation = self.robot_generation
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 189, in connect
+    raise RobotReadError(f"无法连接 CAN 接口 {self.channel}：{error}") from error
+机械臂接入.RobotReadError: 无法连接 CAN 接口 can0：Device 'can0' does not exist.
+2026-10-23 19:21:30,126 WARNING 操作提示：无法连接 CAN 接口 can0：Device 'can0' does not exist.
+2026-10-23 19:21:37,711 ERROR 后台操作失败
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 149, in open_reader
+    arm.connect()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/drivers/core/arm_driver_abstract.py", line 264, in connect
+    comm = self._ctx.init_comm()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/drivers/core/driver_context.py", line 87, in init_comm
+    comm = CommsFactory.create_comm(
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/comm_factory.py", line 50, in create_comm
+    return cls_type(**kwargs)
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 50, in __new__
+    return CanCommImpl(config, comm_type)
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 79, in __init__
+    self.check_can()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 231, in check_can
+    raise self.last_error
+ValueError: Device 'can0' does not exist.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 47, in run
+    self.signals.done.emit(self.function())
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 1059, in work
+    generation = self.robot_generation
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 189, in connect
+    raise RobotReadError(f"无法连接 CAN 接口 {self.channel}：{error}") from error
+机械臂接入.RobotReadError: 无法连接 CAN 接口 can0：Device 'can0' does not exist.
+2026-10-23 19:21:37,712 WARNING 操作提示：无法连接 CAN 接口 can0：Device 'can0' does not exist.
+2026-10-23 19:21:42,829 INFO 连接PiPER X只读位姿接口：can1
+2026-10-23 19:21:46,165 WARNING 操作提示：请先核对并勾选相机、镜头状态及标定板一致。
+2026-10-23 19:21:51,506 INFO 打开手眼标定相机
+2026-10-23 19:21:54,705 INFO 用户开始自动采集
+2026-10-23 19:21:57,017 INFO 自动采集停止：自动采集已停止。
+2026-10-23 19:21:57,079 INFO 关闭手眼标定相机
+2026-10-23 19:21:57,129 INFO 断开机械臂只读连接
+2026-10-23 19:21:57,131 INFO 手眼标定界面停止
+2026-10-23 19:22:24,644 INFO 手眼标定界面启动
+2026-10-23 19:22:42,600 INFO 关闭手眼标定相机
+2026-10-23 19:22:42,601 INFO 手眼标定界面停止
+2026-10-23 19:23:55,539 INFO 手眼标定界面启动
+2026-10-23 19:26:00,136 INFO 读取相机内参与标定板参数
+2026-10-23 19:26:10,628 WARNING 操作提示：请先核对并勾选相机、镜头状态及标定板一致。
+2026-10-23 19:26:14,536 INFO 打开手眼标定相机
+2026-10-23 19:26:18,681 INFO 连接PiPER X只读位姿接口：can1
+2026-10-23 19:26:21,082 INFO 用户开始自动采集
+2026-10-23 19:27:39,750 INFO 自动采集停止：已停止采集，准备计算结果…
+2026-10-23 19:31:10,416 INFO 关闭手眼标定相机
+2026-10-23 19:31:10,446 INFO 断开机械臂只读连接
+2026-10-23 19:31:10,446 INFO 手眼标定界面停止
+2026-10-23 19:31:21,174 INFO 手眼标定界面启动
+2026-10-23 19:31:28,559 INFO 读取相机内参与标定板参数
+2026-10-23 19:31:40,052 WARNING 操作提示：请先核对并勾选相机、镜头状态及标定板一致。
+2026-10-23 19:31:43,672 INFO 打开手眼标定相机
+2026-10-23 19:31:48,132 INFO 连接PiPER X只读位姿接口：can1
+2026-10-23 19:31:49,370 INFO 用户开始自动采集
+2026-10-23 19:31:51,008 INFO 自动加入手眼样本，当前共1组
+2026-10-23 19:31:59,473 INFO 自动加入手眼样本，当前共2组
+2026-10-23 19:32:06,429 INFO 自动加入手眼样本，当前共3组
+2026-10-23 19:32:11,470 INFO 自动加入手眼样本，当前共4组
+2026-10-23 19:32:17,955 INFO 自动加入手眼样本，当前共5组
+2026-10-23 19:32:34,354 INFO 自动加入手眼样本，当前共6组
+2026-10-23 19:32:45,877 INFO 自动加入手眼样本，当前共7组
+2026-10-23 19:32:50,916 INFO 自动加入手眼样本，当前共8组
+2026-10-23 19:32:55,957 INFO 自动加入手眼样本，当前共9组
+2026-10-23 19:33:05,568 INFO 自动加入手眼样本，当前共10组
+2026-10-23 19:33:26,116 INFO 自动加入手眼样本，当前共11组
+2026-10-23 19:33:32,683 INFO 自动加入手眼样本，当前共12组
+2026-10-23 19:33:43,245 INFO 自动加入手眼样本，当前共13组
+2026-10-23 19:33:57,313 INFO 自动加入手眼样本，当前共14组
+2026-10-23 19:34:01,399 INFO 自动加入手眼样本，当前共15组
+2026-10-23 19:34:05,973 INFO 自动采集停止：已停止采集，准备计算结果…
+2026-10-23 19:34:05,992 INFO 完成手眼求解：PARK，样本15组
+2026-10-23 19:34:18,998 INFO 用户导出手眼结果
+2026-10-23 19:34:54,188 INFO 关闭手眼标定相机
+2026-10-23 19:34:54,200 INFO 断开机械臂只读连接
+2026-10-23 19:34:54,201 INFO 手眼标定界面停止
+2026-10-24 12:44:57,663 INFO 手眼标定界面启动
+2026-10-24 13:47:58,212 INFO 关闭手眼标定相机
+2026-10-24 13:47:58,213 INFO 手眼标定界面停止
+2026-10-26 09:46:24,024 INFO 手眼标定界面启动
+2026-10-26 09:49:51,003 INFO 手眼标定界面启动
+2026-10-26 09:50:15,347 INFO 关闭手眼标定相机
+2026-10-26 09:50:15,348 INFO 手眼标定界面停止
+2026-10-26 15:30:27,816 INFO 手眼标定界面启动
+2026-10-26 15:33:45,315 INFO 读取相机内参与标定板参数
+2026-10-26 15:33:57,312 INFO 打开手眼标定相机
+2026-10-26 15:34:07,559 ERROR 后台操作失败
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 149, in open_reader
+    arm.connect()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/drivers/core/arm_driver_abstract.py", line 264, in connect
+    comm = self._ctx.init_comm()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/drivers/core/driver_context.py", line 87, in init_comm
+    comm = CommsFactory.create_comm(
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/comm_factory.py", line 50, in create_comm
+    return cls_type(**kwargs)
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 50, in __new__
+    return CanCommImpl(config, comm_type)
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 79, in __init__
+    self.check_can()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 231, in check_can
+    raise self.last_error
+ValueError: Device 'can0' does not exist.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 112, in run
+    self.signals.done.emit(self.function())
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 1134, in work
+    reader.connect()
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 189, in connect
+    raise RobotReadError(f"无法连接 CAN 接口 {self.channel}：{error}") from error
+机械臂接入.RobotReadError: 无法连接 CAN 接口 can0：Device 'can0' does not exist.
+2026-10-26 15:34:07,560 WARNING 操作提示：无法连接 CAN 接口 can0：Device 'can0' does not exist.
+2026-10-26 15:34:09,286 ERROR 后台操作失败
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 149, in open_reader
+    arm.connect()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/drivers/core/arm_driver_abstract.py", line 264, in connect
+    comm = self._ctx.init_comm()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/drivers/core/driver_context.py", line 87, in init_comm
+    comm = CommsFactory.create_comm(
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/comm_factory.py", line 50, in create_comm
+    return cls_type(**kwargs)
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 50, in __new__
+    return CanCommImpl(config, comm_type)
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 79, in __init__
+    self.check_can()
+  File "/home/w/.cache/vla-fisheye/venv/lib/python3.10/site-packages/pyAgxArm/protocols/can_protocol/comms/can_comm.py", line 231, in check_can
+    raise self.last_error
+ValueError: Device 'can0' does not exist.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 112, in run
+    self.signals.done.emit(self.function())
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 1134, in work
+    reader.connect()
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 189, in connect
+    raise RobotReadError(f"无法连接 CAN 接口 {self.channel}：{error}") from error
+机械臂接入.RobotReadError: 无法连接 CAN 接口 can0：Device 'can0' does not exist.
+2026-10-26 15:34:09,289 WARNING 操作提示：无法连接 CAN 接口 can0：Device 'can0' does not exist.
+2026-10-26 15:35:02,968 ERROR 后台操作失败
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 112, in run
+    self.signals.done.emit(self.function())
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 1134, in work
+    reader.connect()
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 183, in connect
+    raise RobotReadError("连接超时（5 秒）：未收到完整且新鲜的机械臂反馈，请检查 CAN 接口、机械臂电源和固件选择。")
+机械臂接入.RobotReadError: 连接超时（5 秒）：未收到完整且新鲜的机械臂反馈，请检查 CAN 接口、机械臂电源和固件选择。
+2026-10-26 15:35:02,969 WARNING 操作提示：连接超时（5 秒）：未收到完整且新鲜的机械臂反馈，请检查 CAN 接口、机械臂电源和固件选择。
+2026-10-26 15:35:10,654 ERROR 后台操作失败
+Traceback (most recent call last):
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 112, in run
+    self.signals.done.emit(self.function())
+  File "/home/w/VLA/手眼标定/程序/操作界面/手眼界面.py", line 1134, in work
+    reader.connect()
+  File "/home/w/VLA/手眼标定/程序/核心算法/机械臂接入.py", line 183, in connect
+    raise RobotReadError("连接超时（5 秒）：未收到完整且新鲜的机械臂反馈，请检查 CAN 接口、机械臂电源和固件选择。")
+机械臂接入.RobotReadError: 连接超时（5 秒）：未收到完整且新鲜的机械臂反馈，请检查 CAN 接口、机械臂电源和固件选择。
+2026-10-26 15:35:10,655 WARNING 操作提示：连接超时（5 秒）：未收到完整且新鲜的机械臂反馈，请检查 CAN 接口、机械臂电源和固件选择。
+2026-10-26 15:39:45,189 INFO 关闭手眼标定相机
+2026-10-26 15:39:45,190 INFO 手眼标定界面停止
+2026-10-26 15:41:21,640 INFO 手眼标定界面启动
+2026-10-26 15:42:07,273 INFO 请求激活已有标定窗口
+2026-10-26 15:42:07,273 INFO 已恢复手眼标定窗口
+2026-10-26 15:43:09,261 INFO 请求激活已有标定窗口
+2026-10-26 15:43:09,263 INFO 已恢复手眼标定窗口
+2026-10-26 15:49:57,982 INFO 关闭手眼标定相机
+2026-10-26 15:49:57,983 INFO 手眼标定界面停止
+2026-10-26 15:52:29,910 INFO 手眼标定界面启动
+2026-10-26 15:53:16,472 INFO 读取相机内参与标定板参数
+2026-10-26 15:53:25,419 INFO 打开手眼标定相机
+2026-10-26 15:53:40,721 INFO 应用手眼相机显示区域
+2026-10-26 15:54:03,255 INFO 连接PiPER X只读位姿接口：can0
+2026-10-26 15:54:16,986 INFO 用户开始自动采集
+2026-10-26 15:54:18,152 INFO 自动加入手眼样本，当前共1组
+2026-10-26 15:54:50,782 INFO 自动加入手眼样本，当前共2组
+2026-10-26 15:54:57,907 INFO 自动加入手眼样本，当前共3组
+2026-10-26 15:55:15,272 INFO 自动加入手眼样本，当前共4组
+2026-10-26 15:55:19,262 INFO 自动加入手眼样本，当前共5组
+2026-10-26 15:55:25,292 INFO 自动加入手眼样本，当前共6组
+2026-10-26 15:55:28,312 INFO 自动加入手眼样本，当前共7组
+2026-10-26 15:55:38,495 INFO 自动加入手眼样本，当前共8组
+2026-10-26 15:55:43,032 INFO 自动加入手眼样本，当前共9组
+2026-10-26 15:55:51,996 INFO 自动加入手眼样本，当前共10组
+2026-10-26 15:56:01,032 INFO 自动加入手眼样本，当前共11组
+2026-10-26 15:56:07,117 INFO 自动加入手眼样本，当前共12组
+2026-10-26 15:56:40,878 INFO 自动加入手眼样本，当前共13组
+2026-10-26 15:56:50,055 INFO 自动采集停止：已停止采集，准备计算结果…
+2026-10-26 15:56:50,069 INFO 完成手眼求解：PARK，样本13组
+2026-10-26 15:57:08,946 INFO 用户导出手眼结果
+2026-10-26 15:58:29,941 INFO 用户保存13张手眼采样照片
+2026-10-26 15:58:51,986 INFO 用户保存配对数据
+2026-10-26 15:58:53,678 INFO 关闭手眼标定相机
+2026-10-26 15:58:53,705 INFO 断开机械臂只读连接
+2026-10-26 15:58:53,709 INFO 手眼标定界面停止
+2026-10-26 16:07:51,227 INFO 手眼标定界面启动
+2026-10-26 16:11:53,461 WARNING 操作提示：请先在“准备参数”读取相机标定结果。
+2026-10-26 16:12:04,242 INFO 读取相机内参与标定板参数
+2026-10-26 16:12:12,519 INFO 打开手眼标定相机
+2026-10-26 16:12:12,671 INFO 关闭手眼标定相机
+2026-10-26 16:12:16,115 INFO 打开手眼标定相机
+2026-10-26 16:12:16,381 INFO 关闭手眼标定相机
+2026-10-26 16:12:31,498 INFO 打开手眼标定相机
+2026-10-26 16:12:42,049 INFO 应用手眼相机显示区域
+2026-10-26 16:14:33,446 INFO 关闭手眼标定相机
+2026-10-26 16:14:33,447 INFO 手眼标定界面停止
+2026-10-26 16:28:13,797 INFO 手眼标定界面启动
+2026-10-26 16:29:18,761 INFO 读取相机内参与标定板参数
+2026-10-26 16:29:23,518 WARNING 操作提示：请先核对并勾选相机、镜头状态及标定板一致。
+2026-10-26 16:29:29,570 INFO 打开手眼标定相机
+2026-10-26 16:29:37,921 INFO 应用手眼相机显示区域
+2026-10-26 16:29:44,082 INFO 关闭手眼标定相机
+2026-10-26 16:29:44,083 INFO 手眼标定界面停止

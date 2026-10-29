@@ -1,0 +1,5 @@
+# 当前电脑复用 /home/w/.cache/vla-fisheye/venv/bin/python，不自动安装或修改旧环境。
+# 迁移时可在本项目独立环境中安装；ArUco 与 AprilTag 检测需 cv2.aruco。
+PySide6-Essentials==6.8.3
+opencv-python-headless==4.14.0.94
+numpy==2.2.6

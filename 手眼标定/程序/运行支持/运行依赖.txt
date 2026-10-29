@@ -1,0 +1,7 @@
+# 当前电脑复用 /home/w/.cache/vla-fisheye/venv/bin/python，不自动安装或修改旧环境。
+# 迁移时可在本项目独立环境中安装；ArUco 与 AprilTag 检测需 cv2.aruco。
+PySide6-Essentials==6.8.3
+opencv-python-headless==4.14.0.94
+numpy==2.2.6
+# PiPER X 自动读取关节与 FK；固定已核对的官方 SDK 修订。
+pyAgxArm @ git+https://github.com/agilexrobotics/pyAgxArm.git@d90e234ba8e408cfa964b38aa9120b3131fc9f85
